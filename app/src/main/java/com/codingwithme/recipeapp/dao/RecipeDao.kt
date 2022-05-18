@@ -11,6 +11,7 @@ import com.codingwithme.recipeapp.entities.MealsItems
 @Dao
 interface RecipeDao {
 
+
     @Query("SELECT * FROM categoryitems ORDER BY id DESC")
     suspend fun getAllCategory() : List<CategoryItems>
 

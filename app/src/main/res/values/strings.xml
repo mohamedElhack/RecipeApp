@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RecipeApp</string>
+    <string name="Restarnut">My Restaranut App</string>
+    <string name="Hello">Hello Explore Your Dream Food.</string>
+    <string name="Registerr">Register</string>
+    <string name="login">Login</string>
 </resources>

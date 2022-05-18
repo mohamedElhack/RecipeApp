@@ -15,8 +15,8 @@ import com.codingwithme.recipeapp.entities.converter.MealListConverter
 abstract class RecipeDatabase: RoomDatabase() {
 
     companion object{
-
-        var recipesDatabase:RecipeDatabase? = null
+         @Volatile
+         private var recipesDatabase:RecipeDatabase? = null
 
         @Synchronized
         fun getDatabase(context: Context): RecipeDatabase{
